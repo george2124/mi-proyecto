@@ -152,7 +152,12 @@ footer p{
          .menuIndex{
              font-size: 1.3rem;
          }
-        
+        .indexTitulo{
+            transition: 2s;
+        }
+        .indexTitulo:hover{
+            transform: scale(1.5);
+        }
 }
 
 
