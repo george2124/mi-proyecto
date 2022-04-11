@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--link del cs-->
+     <link rel="stylesheet" href="../css/main.css">
+     <!--link de tipologia-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+    
+    <title>Contacto</title>
+</head>
+<body>
+
+    <header>
+        <h1 class="indexTitulo">
+            <a href="../index.html" class="">CyV Fitnnes</a>
+        </h1>
+  <!--menu-->  
+
+  <nav>
+    <ul>
+        <li> 
+            <a class="menuIndex" href="../pages/sobreNosotros.html">
+            sobre nosotros
+            </a> 
+        </li>
+        <li>
+            <a class="menuIndex" href="../pages/galeria.html">
+            galeria
+            </a>
+        </li>
+        <li>
+            <a class="menuIndex" href="../pages/productos.html">
+                producto
+            </a>
+        </li>
+        <li>
+            <a class="menuIndex" href="contacto.html">
+                contacto
+            </a>
+        </li>
+        <li>
+            <a class="menuIndex" href="../index.html">
+                Home
+            </a>
+        </li>
+    </ul>
+    
+    
+    
+</nav>
+   </header>
+    
+<main>
+        <h2>Contacto</h2> 
+   
+        <h3>Te podes contactar con nosotros ante cualquier duda</h3>
+        
+<!--formulario-->
+<form action="">
+    <fieldset>
+         <legend>
+             informacion de contacto
+         </legend>
+
+         <div>
+               <label for="nombre">completa tu nombre</label>
+               <input type="text" name="nombre" placeholder="aca va tu nombre">
+         </div>
+            
+        
+            <div>
+               <label for="email">
+               completa tu email
+               </label>
+               <input type="email" name="email" placeholder="aca va tu email">
+            </div>
+
+            <div>
+                <label for="pais">
+                    selecciona tu pais
+                </label>
+                <select name="pais" id="">
+                    <option value="argentina">argentina</option>
+                    <option value="colombia">colombia</option>
+                    <option value="chile">chile</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="genero">
+                    elige tu genero
+                </label>
+                <br>
+                <input type="radio" name="genero" value="hombre">hombre <br>
+
+                <input type="radio" name="genero" value="mujer">mujer <br>
+
+                <input type="radio" name="genero" value="no-binario">no-binario
+            </div>
+
+            <div>
+                <input type="submit" value="enviar">
+                <input type="reset" value="borrar todo">
+            </div>
+         
+    </fieldset>
+</form>
+</main>
+  
+    
+   
+    
+<footer>
+    <p> todos los derechos reservados</p> 
+</footer>
+
+</body>
+</html>
